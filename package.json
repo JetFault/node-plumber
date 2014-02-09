@@ -4,7 +4,8 @@
   "description": "Example of pipelining web pages. Like a simple version Facebook's BigPipe",
   "main": "server.js",
   "dependencies": {
-    "handlebars": "~1.3.0"
+    "handlebars": "~1.3.0",
+    "async": "~0.2.10"
   },
   "devDependencies": {},
   "scripts": {

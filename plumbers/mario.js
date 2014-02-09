@@ -1,14 +1,21 @@
 /**
- * Mario - Plumber
+ * Mario - Plumber - Server
  *
  * Creates <script> tags with pipelined data embedded
  */
 
 var peach = require('./Peach');
 
-var Mario = {};
+function Mario() {
 
-Mario.createScript = function(html, css, js) {
+}
+
+/**
+ * Serializer for Peach to script
+ * @param {Peach} 
+ */
+Mario.prototype.createScript = function(domSelector, html, css, js) {
+    
     
 };
 
